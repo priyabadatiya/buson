@@ -1,0 +1,388 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ---------------------css reset ends here------------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* -------------------header-------------------- */
+
+.head {
+    background-color: rgb(1, 45, 91);
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.head nav i {
+    margin-left: 22px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header nav a {
+    margin-left: 24px;
+    color: rgb(1, 45, 91);
+}
+
+.contact {
+    background-color: rgb(245, 84, 35);
+    color: white !important;
+    padding: 10px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.head div h5 {
+    margin-left: -35%;
+}
+
+
+/* ---------------------------service----------------------------- */
+
+.service {
+    background-image: url("../hero/services_hero.jpg");
+    height: 300px;
+    padding-top: 130px;
+    color: white;
+    font-weight: bolder;
+}
+
+.serve {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.col-1 h2 {
+    font-size: 25px;
+    padding: 10px 0
+}
+
+.col-1 {
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.btn-1 {
+    color: rgb(253, 101, 107);
+    border: 2px solid rgb(253, 101, 107);
+}
+
+.button {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*----------------------------- recent------------------------------- */
+
+.col-2 {
+    width: 25%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.col-2 h4 {
+    color: rgb(253, 123, 128);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.col-2 p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.col-2 a {
+    color: gainsboro;
+    font-size: medium;
+}
+
+.recent {
+    padding-bottom: 200px;
+}
+
+.recent h1 {
+    padding: 70px 0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+/* ----------------------form------------------------ */
+
+.forms {
+    background-color: rgb(1, 45, 91);
+}
+
+.btn-2 {
+    background-color: rgb(253, 123, 128);
+    color: white;
+    margin: 10px 25px;
+}
+
+.request {
+    width: 46%;
+}
+
+.service-form {
+    text-align: right;
+}
+
+.request {
+    padding: 6% 0;
+}
+
+.request h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+}
+
+.request p {
+    color: white;
+    font-size: 20px;
+}
+
+.form {
+    height: 50px;
+    margin: 10px 25px;
+    background-color: rgb(1, 45, 91);
+    color: white;
+    border: 1px solid rgb(41, 86, 132);
+    width: 300px;
+    padding: 0 25px;
+}
+
+.service-form for div {
+    width: 100%;
+}
+
+.service-form div {
+    display: flex;
+}
+
+.form::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.service-form div select {
+    width: 478px;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+
+/* ---------------------information------------------------------- */
+
+.information {
+    padding: 7% 0;
+}
+
+.col-4 {
+    width: 22%;
+    height: 200px;
+}
+
+.col-4 p {
+    color: gray;
+    line-height: 2;
+}
+
+.col-4 nav i {
+    margin-right: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.col-4 h3,
+.col-4 img {
+    color: rgb(1, 45, 91);
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* -------------------------footer---------------------- */
+
+.footer {
+    text-align: center;
+    color: gray;
+    padding: 30px 0;
+}

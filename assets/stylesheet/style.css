@@ -1,0 +1,566 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ------------------------css reset ends here------------------------------ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-1 {
+    background-color: rgb(253, 123, 128);
+    color: white;
+    border-radius: 7px;
+}
+
+
+/* -------------------header-------------------- */
+
+.head {
+    background-color: rgb(1, 45, 91);
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.head nav i {
+    margin-left: 22px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header nav a {
+    margin-left: 24px;
+    color: rgb(1, 45, 91);
+}
+
+.contact {
+    background-color: rgb(245, 84, 35);
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.head div h5 {
+    margin-left: -35%;
+}
+
+
+/*------------------------------- home------------------------------------- */
+
+.home {
+    background-image: url("../hero/h1_hero.jpg");
+    height: 870px;
+    padding-top: 200px;
+}
+
+.home h4 {
+    font-size: 20px;
+    color: rgb(245, 84, 35);
+}
+
+.home h1 {
+    color: rgb(1, 45, 91);
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+
+/* </----------------------service-------------------/> */
+
+.service {
+    background-color: rgb(246, 249, 254);
+    padding: 8% 0;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-1 h2 {
+    color: rgb(1, 45, 91);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-1 hr {
+    width: 100px;
+    margin: 25px;
+    border: 1.5px solid red;
+    background-color: red;
+}
+
+.col-1 p {
+    color: gray;
+}
+
+.col-1 h2,
+.col-1 h3,
+.col-1 p {
+    margin: 20px 0;
+}
+
+.col-1 h3 {
+    color: rgb(1, 45, 91);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.help {
+    border: 3px solid rgb(245, 84, 35);
+    border-radius: 8px;
+    height: 420px;
+}
+
+.help h6 {
+    padding-top: 40px;
+}
+
+.help h2,
+.help p,
+.help h6 {
+    padding-left: 25px;
+}
+
+
+/* ----------------------------clients----------------- */
+
+.clients {
+    padding: 7% 0;
+}
+
+.box {
+    background: rgb(249, 249, 249);
+    margin-top: 120px;
+}
+
+.client img {
+    height: 500px;
+}
+
+.client h2 {
+    color: rgb(1, 45, 91);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.client p {
+    color: rgb(1, 45, 91);
+    text-align: left;
+}
+
+.client div {
+    margin-left: -80px;
+    padding: 50px;
+    padding-right: 20%;
+    background: rgba(255, 255, 255, 0.5);
+    height: 400px;
+}
+
+
+/* ----------------------services------------------------- */
+
+.serve {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.col-2 h2 {
+    font-size: 25px;
+    padding: 10px 0
+}
+
+.col-2 {
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.btn-2 {
+    color: rgb(253, 101, 107);
+    border: 2px solid rgb(253, 101, 107);
+}
+
+.buttn {
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+/* -----------------------------------completed --------------------------------*/
+
+.cases h2 {
+    color: rgb(1, 45, 91);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.completed {
+    padding: 6% 0;
+}
+
+.cases p {
+    color: gray;
+}
+
+.col-4 {
+    width: 23%;
+}
+
+.img_container div {
+    width: 60%;
+}
+
+.img_container .images {
+    overflow: hidden;
+    margin-right: -250px;
+    width: 100%;
+}
+
+.img_container .images img {
+    height: 600px;
+    width: 420px;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+/* ---------------------------------testimonial--------------------------------- */
+
+.testomonial {
+    padding: 7% 0;
+}
+
+.profile {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile h6 {
+    color: rgb(1, 45, 91);
+}
+
+.profile img,
+.profile p,
+.profile h6,
+.profile nav {
+    margin-top: 25px;
+}
+
+.profile .nav {
+    display: flex;
+    flex-direction: row;
+    color: rgb(251, 186, 66);
+    justify-content: center;
+}
+
+
+/* ----------------------------------recent----------------------------------- */
+
+.col-3 {
+    width: 25%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.col-3 h4 {
+    color: rgb(253, 123, 128);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.col-3 p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.col-3 a {
+    color: gainsboro;
+    font-size: medium;
+}
+
+.recent {
+    padding-bottom: 200px;
+}
+
+.recent h1 {
+    padding: 70px 0;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/* ----------------------form------------------------ */
+
+.forms {
+    background-color: rgb(1, 45, 91);
+}
+
+.btn-2 {
+    margin: 10px 25px;
+}
+
+.request {
+    width: 46%;
+}
+
+.service-form {
+    text-align: right;
+}
+
+.request {
+    padding: 6% 0;
+}
+
+.request h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+}
+
+.request p {
+    color: white;
+    font-size: 20px;
+}
+
+.form {
+    height: 50px;
+    margin: 10px 25px;
+    background-color: rgb(1, 45, 91);
+    color: white;
+    border: 1px solid rgb(41, 86, 132);
+    width: 300px;
+    padding: 0 25px;
+}
+
+.service-form for div {
+    width: 100%;
+}
+
+.service-form div {
+    display: flex;
+}
+
+.form::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.service-form div select {
+    width: 478px;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+.btn-1 {
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/* ---------------------information------------------------------- */
+
+.information {
+    padding: 7% 0;
+}
+
+.col-4 {
+    width: 22%;
+    height: 200px;
+}
+
+.col-4 p {
+    color: gray;
+    line-height: 2;
+}
+
+.col-4 nav i {
+    margin-right: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.col-4 h3,
+.col-4 img {
+    color: rgb(1, 45, 91);
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* -------------------------footer---------------------- */
+
+.footer {
+    text-align: center;
+    color: gray;
+    padding: 30px 0;
+}
