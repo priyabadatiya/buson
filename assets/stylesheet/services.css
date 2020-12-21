@@ -227,6 +227,11 @@ h1 {
     font-weight: bold;
 }
 
+.col-1 i {
+    font-size: 50px;
+    height: 60px;
+}
+
 .col-1 h2 {
     font-size: 25px;
     padding: 10px 0
