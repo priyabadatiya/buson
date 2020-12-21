@@ -149,11 +149,11 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 32px 20px 32px;
+    padding: 0 32px;
 }
 
-.head div,
-.header div {
+.header div,
+.head div {
     max-width: 1400px;
 }
 
@@ -168,7 +168,7 @@ a {
 }
 
 .btn {
-    padding: 12px 36px;
+    padding: 12px 38px;
     text-transform: uppercase;
     font-size: 18px;
     text-align: center;
@@ -182,7 +182,7 @@ a {
 }
 
 
-/* -------------------header-------------------- */
+/*-------------------------------- header------------------------------ */
 
 .active {
     border-bottom: 1px solid #012D5B;
@@ -213,29 +213,60 @@ a {
     padding: 10px 15px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
 .head div h5 {
     margin-left: -35%;
 }
 
 
-/*------------------------------- home------------------------------------- */
+/* ------------------------------------------hero------------------------------------- */
 
-.home {
-    background-image: url("../hero/h1_hero.jpg");
-    height: 870px;
-    padding-top: 200px;
+.about {
+    background-image: url("../hero/about_hero.jpg");
+    height: 300px;
+    padding-top: 110px;
+    color: white;
+    font-weight: bolder;
 }
 
-.home h4 {
-    font-size: 20px;
-    color: rgb(245, 84, 35);
+
+/* ----------------------------clients----------------- */
+
+.clients {
+    padding: 7% 0 0 0;
 }
 
-.home h1 {
+.box {
+    background: rgb(249, 249, 249);
+    margin-top: 80px;
+}
+
+.client img {
+    height: 500px;
+}
+
+.client h2 {
     color: rgb(1, 45, 91);
-    font-size: 60px;
-    font-weight: 900;
-    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.client p {
+    color: rgb(1, 45, 91);
+    text-align: left;
+    margin: 25px 0;
+}
+
+.client div {
+    margin-left: -80px;
+    padding: 50px;
+    padding-right: 20%;
+    background: rgba(255, 255, 255, 0.5);
+    height: 420px;
 }
 
 
@@ -296,124 +327,10 @@ a {
 }
 
 
-/* ----------------------------clients----------------- */
-
-.clients {
-    padding: 7% 0;
-}
-
-.box {
-    background: rgb(249, 249, 249);
-    margin-top: 80px;
-}
-
-.client img {
-    height: 500px;
-}
-
-.client h2 {
-    color: rgb(1, 45, 91);
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.client p {
-    color: rgb(1, 45, 91);
-    text-align: left;
-    margin: 25px 0;
-}
-
-.client div {
-    margin-left: -80px;
-    padding: 50px;
-    padding-right: 20%;
-    background: rgba(255, 255, 255, 0.5);
-    height: 420px;
-}
-
-
-/* ----------------------services------------------------- */
-
-.serve {
-    font-size: 40px;
-    text-align: center;
-    padding: 85px 0;
-    font-weight: bold;
-}
-
-.col-2 h2 {
-    font-size: 25px;
-    padding: 10px 0;
-}
-
-.col-2 {
-    width: 25%;
-    text-align: center;
-    padding: 45px 25px;
-    background-color: rgb(240, 241, 242);
-}
-
-.btn-2 {
-    color: rgb(253, 101, 107);
-    border: 2px solid rgb(253, 101, 107);
-    padding: 18px 50px;
-}
-
-.buttn {
-    text-align: center;
-    padding: 45px 0;
-}
-
-
-/* -----------------------------------completed --------------------------------*/
-
-.cases h2 {
-    color: rgb(1, 45, 91);
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.completed {
-    padding: 6% 0;
-    background-color: rgb(240, 241, 242);
-}
-
-.cases p {
-    color: gray;
-}
-
-.col-4 {
-    width: 23%;
-}
-
-.col-4 p {
-    color: gray;
-    line-height: 2;
-    padding: 20px 25px 0 0;
-}
-
-.img_container div {
-    width: 60%;
-}
-
-.img_container .images {
-    overflow: hidden;
-    margin-right: -250px;
-    width: 100%;
-}
-
-.img_container .images img {
-    height: 500px;
-    width: 41.5%;
-    margin: 2px;
-    padding: 10px;
-}
-
-
 /* ---------------------------------testimonial--------------------------------- */
 
 .testomonial {
-    padding: 7% 0;
+    padding: 10% 0;
 }
 
 .profile {
@@ -469,17 +386,18 @@ a {
 }
 
 .recent h1 {
-    padding: 70px 0;
+    padding: 70px 0 30px 0;
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
 }
 
-
-/* ----------------------form------------------------ */
-
 .forms {
     background-color: rgb(1, 45, 91);
+}
+
+.btn-2 {
+    margin: 10px 25px;
 }
 
 .request {
@@ -548,24 +466,24 @@ a {
     padding: 7% 0;
 }
 
-.col-5 {
+.col-4 {
     width: 22%;
     height: 200px;
 }
 
-.col-5 p {
+.col-4 p {
     color: gray;
     line-height: 2.2;
 }
 
-.col-5 nav i {
+.col-4 nav i {
     margin-right: 25px;
     padding-top: 30px;
     font-size: 20px;
 }
 
-.col-5 h3,
-.col-5 img {
+.col-4 h3,
+.col-4 img {
     color: rgb(1, 45, 91);
     padding: 30px 0;
     font-size: 30px;
