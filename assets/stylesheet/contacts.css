@@ -130,6 +130,7 @@
         }
         /* ------------------------css reset ends here------------------------------ */
         
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
         *,
         *::before,
         *::after {
@@ -138,7 +139,7 @@
         
         body {
             font-size: 18px;
-            font-family: "Roboto", sans-serif;
+            font-family: 'Poppins', sans-serif;
             line-height: 1.5;
         }
         
