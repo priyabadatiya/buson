@@ -134,6 +134,9 @@ table {
 
 /* ------------------------css reset ends here------------------------------ */
 
+
+/* common */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *,
 *::before,
@@ -150,7 +153,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 32px 20px 32px;
+    padding: 0 32px;
 }
 
 .head div,
@@ -413,7 +416,7 @@ a {
 
 /* ---------------------------------testimonial--------------------------------- */
 
-.testomonial {
+.testimonial {
     padding: 7% 0;
 }
 
@@ -485,14 +488,11 @@ a {
 
 .request {
     width: 46%;
+    padding: 6% 0;
 }
 
 .service-form {
     text-align: right;
-}
-
-.request {
-    padding: 6% 0;
 }
 
 .request h1 {
@@ -580,4 +580,64 @@ a {
     text-align: center;
     color: gray;
     padding: 30px 0;
+}
+
+
+/* About Page */
+
+.about_btn {
+    padding: 12px 38px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about_btn-1 {
+    background-color: rgb(253, 123, 128);
+    color: white;
+    border-radius: 7px;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about {
+    background-image: url("../hero/about_hero.jpg");
+    height: 300px;
+    padding-top: 110px;
+    color: white;
+    font-weight: bolder;
+}
+
+.clients {
+    padding: 7% 0 0 0;
+}
+
+.about_testimonial {
+    padding: 10% 0;
+}
+
+.about_col-4 {
+    height: 200px;
+}
+
+.about_col-4 p {
+    padding: 0
+}
+
+.col-4 nav i {
+    margin-right: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.col-4 h3,
+.col-4 img {
+    color: rgb(1, 45, 91);
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
 }
