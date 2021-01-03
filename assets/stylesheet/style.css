@@ -365,7 +365,12 @@ a {
 
 .buttn {
     text-align: center;
-    padding: 45px 0;
+    padding: 75px 0;
+}
+
+.buttn_2 {
+    text-align: center;
+    padding: 35px 0;
 }
 
 
@@ -396,19 +401,22 @@ a {
     padding: 20px 25px 0 0;
 }
 
-.img_container div {
-    width: 60%;
-}
-
-.img_container .images {
+.img_container {
     overflow: hidden;
-    margin-right: -250px;
-    width: 100%;
+    padding-left: 20%;
 }
 
-.img_container .images img {
+.img_container div {
+    width: 50%;
+}
+
+.images {
+    width: 50%;
+}
+
+.images img {
     height: 500px;
-    width: 41.5%;
+    width: 45%;
     margin: 2px;
     padding: 10px;
 }
@@ -599,7 +607,11 @@ a {
     border-radius: 7px;
 }
 
-.about h1 {
+.about h1,
+.cases_2 h1,
+.contacts_hero h1,
+.service h1,
+.service_hero h1 {
     text-align: center;
     font-size: 50px;
 }
@@ -636,6 +648,627 @@ a {
 
 .col-4 h3,
 .col-4 img {
+    color: rgb(1, 45, 91);
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* ----------------------------Blog------------------------------ */
+
+.blog_btn-1 {
+    background-color: white;
+    color: rgb(253, 101, 107);
+    letter-spacing: 7px;
+    border: 1px solid rgb(253, 101, 107);
+    margin-top: 20px;
+    width: 100%;
+}
+
+.blog_btn-2 {
+    background-color: white;
+    color: gray;
+    padding: 2% 5%;
+    border: 1px solid rgb(88, 104, 120);
+    margin-top: 13px;
+}
+
+.side_content h2 {
+    color: rgb(17, 34, 62);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgb(223, 235, 253);
+}
+
+.blog_h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.hero {
+    background-image: url("../hero/blog_hero.jpg");
+    height: 300px;
+    padding-top: 120px;
+    color: white;
+    font-weight: bolder;
+}
+
+.blog {
+    padding: 6% 0;
+}
+
+.parent_content {
+    display: flex;
+}
+
+.content {
+    width: 65%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side_content {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* copied from codepen .card-1 && .card-1:hover */
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.blog-container {
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.blog-container h2 {
+    color: rgb(17, 34, 62);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.blog-container p {
+    color: rgb(88, 104, 120);
+}
+
+.m-4 {
+    margin: 10px 0 0 40px;
+}
+
+.m-2 {
+    margin-right: 10px;
+}
+
+.blog-container span {
+    color: white;
+    background-color: rgb(253, 101, 107);
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    padding: 12px 25px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.blog-container span b {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.blog-container img {
+    margin-bottom: -74px;
+    width: 100%;
+}
+
+.gray {
+    color: gray;
+    display: flex;
+    margin-top: 23px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.pagination span {
+    padding: 7px 10px;
+    color: gray;
+    margin-right: 5px;
+    border: 1px solid gainsboro;
+}
+
+.color {
+    background-color: gainsboro;
+}
+
+div.input {
+    background-color: rgb(240, 241, 242);
+    padding: 20px;
+    text-align: center;
+}
+
+div.input-items {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 5% 0;
+}
+
+.flex-s {
+    display: flex;
+    align-items: center;
+}
+
+.input .blog_form {
+    height: 38px;
+    padding: 1%;
+    width: 89%;
+}
+
+.input-items i {
+    color: white;
+    background: rgb(253, 101, 107);
+    padding: 7px;
+}
+
+.category h2 {
+    color: rgb(17, 34, 62);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 20px 12px 0px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.b-bot {
+    border-bottom: 1px solid rgb(223, 235, 253);
+}
+
+.category .list ul li {
+    padding: 14px 20px 14px 0px;
+    font-size: 15px;
+}
+
+.category {
+    margin-top: 5%;
+    background-color: rgb(240, 241, 242);
+    color: rgb(88, 104, 120);
+}
+
+.blog_recent {
+    margin-top: 5%;
+    background-color: rgb(240, 241, 242);
+    color: rgb(88, 104, 120);
+}
+
+.posts h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(17, 34, 62);
+}
+
+.blog_recent p {
+    color: gray;
+    font-size: 12px;
+}
+
+.posts {
+    padding: 20px;
+}
+
+.tag {
+    margin-top: 5%;
+    background-color: rgb(240, 241, 242);
+}
+
+.cloud-button {
+    padding: 5% 7%;
+    width: 90%;
+}
+
+.instagram {
+    margin-top: 5%;
+    background-color: rgb(240, 241, 242);
+}
+
+.insta-post {
+    padding: 5% 6%;
+}
+
+.news {
+    margin-top: 5%;
+    background-color: rgb(240, 241, 242);
+}
+
+.news-letter h2 {
+    color: rgb(17, 34, 62);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgb(223, 235, 253);
+}
+
+.in-form {
+    padding: 1%;
+    margin-bottom: 1rem;
+    height: 35px;
+}
+
+.posts img {
+    margin-right: 15px;
+}
+
+.btn-3 {
+    color: rgb(253, 101, 107);
+    border: 1px solid rgb(253, 101, 107);
+    background-color: white;
+}
+
+.blog_information {
+    padding: 6% 0 10% 0;
+    background-color: rgb(240, 241, 242);
+}
+
+.blog_footer {
+    background-color: rgb(240, 241, 242);
+}
+
+.foot {
+    text-align: center;
+    color: gray;
+    padding: 30px 0;
+}
+
+.blog_footer hr {
+    margin: 0px;
+}
+
+
+/* cases */
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.cases_btn {
+    padding: 12px 38px;
+}
+
+.cases_2 {
+    background-image: url("../hero/cases_hero.jpg");
+    height: 300px;
+    padding-top: 120px;
+    color: white;
+    font-weight: bolder;
+}
+
+.gallery {
+    padding: 7% 8%;
+    background-color: #F8FAFE;
+}
+
+.box-1 {
+    height: 500px;
+    width: 30%;
+    margin-bottom: 25px;
+}
+
+.inside-text img {
+    position: absolute;
+    width: 370px;
+    height: 500px;
+}
+
+.text {
+    position: relative;
+    background-color: #ffffff;
+    top: 370px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(55, 69, 85);
+}
+
+.text h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: gray;
+}
+
+.cases_btn-2 {
+    background-color: rgb(253, 123, 128);
+    color: white;
+    margin: 10px 19px;
+}
+
+.cases_request {
+    width: 38%;
+    padding: 6% 0;
+}
+
+.cases_request h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+}
+
+.cases_request p {
+    color: white;
+    font-size: 20px;
+}
+
+
+/*---------------------------- contacts ---------------------------*/
+
+.contacts_hero {
+    background-image: url("../hero/contact_hero.jpg");
+    height: 300px;
+    padding-top: 130px;
+    color: white;
+    font-weight: bolder;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+}
+
+.iframe {
+    text-align: center;
+    padding: 50px;
+}
+
+.contacts_form {
+    display: inline;
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+}
+
+.form_parent form {
+    width: 60%;
+}
+
+form textarea {
+    height: 190px;
+}
+
+.button {
+    box-shadow: none;
+    border: 0;
+}
+
+.contacts_btn-2 {
+    border: 1px solid rgb(253, 123, 128);
+    color: rgb(253, 123, 128);
+    background-color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.contacts_forms h2 {
+    font-size: 40px;
+    color: rgb(1, 45, 91);
+    font-weight: 700;
+    padding-left: 10.5%;
+}
+
+.contacts-icon {
+    width: 35px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.contacts li {
+    display: flex;
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.form_sub {
+    width: 96%;
+}
+
+.form_parent {
+    display: flex;
+    padding-left: 9.5%;
+}
+
+.gray {
+    color: gray;
+}
+
+.contacts_col-4 {
+    width: 22%;
+    height: 200px;
+}
+
+.contacts_col-4 p {
+    color: gray;
+    line-height: 2.3;
+}
+
+.contacts_col-4 nav i {
+    margin-right: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.contacts_col-4 h3,
+.contacts_col-4 img {
+    color: rgb(1, 45, 91);
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.letter {
+    background-color: rgb(1, 45, 91);
+}
+
+.contacts_btn-2 {
+    margin: 10px 20px;
+}
+
+.service-letter {
+    text-align: right;
+}
+
+.letters {
+    height: 50px;
+    margin: 10px 25px;
+    background-color: rgb(1, 45, 91);
+    color: white;
+    border: 1px solid rgb(41, 86, 132);
+    width: 300px;
+    padding: 0 25px;
+}
+
+.service-letter for div {
+    width: 100%;
+}
+
+.service-letter div {
+    display: flex;
+}
+
+.letters::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.service-letter div select {
+    width: 478px;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+.service_hero {
+    background-image: url("../hero/services_hero.jpg");
+    height: 300px;
+    padding-top: 130px;
+    color: white;
+    font-weight: bolder;
+}
+
+.service_1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.serv_col-1 i {
+    font-size: 50px;
+    height: 60px;
+}
+
+.serv_col-1 h2 {
+    font-size: 25px;
+    padding: 10px 0
+}
+
+.serv_col-1 {
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.serv_btn-1 {
+    color: rgb(253, 101, 107);
+    border: 2px solid rgb(253, 101, 107);
+}
+
+.serv_button {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.serv_col-2 {
+    width: 25%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.serv_col-2 h4 {
+    color: rgb(253, 123, 128);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.serv_col-2 p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.serv_col-2 a {
+    color: gainsboro;
+    font-size: medium;
+}
+
+.serv_btn-2 {
+    background-color: rgb(253, 123, 128);
+    color: white;
+    margin: 10px 19px;
+}
+
+.serv_col-4 {
+    width: 22%;
+    height: 200px;
+}
+
+.serv_col-4 p {
+    color: gray;
+    line-height: 2.2;
+}
+
+.serv_col-4 nav i {
+    margin-right: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.serv_col-4 h3,
+.serv_col-4 img {
     color: rgb(1, 45, 91);
     padding: 30px 0;
     font-size: 30px;
