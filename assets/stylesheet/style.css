@@ -217,7 +217,7 @@ a {
     padding: 10px 15px;
 }
 
-.head div h5 {
+.head email {
     margin-left: -35%;
 }
 
@@ -425,7 +425,7 @@ a {
 /* ---------------------------------testimonial--------------------------------- */
 
 .testimonial {
-    padding: 7% 0;
+    padding: 5% 0;
 }
 
 .profile {
@@ -438,7 +438,7 @@ a {
 }
 
 .profile img,
-.profile p,
+.profile blockquote,
 .profile h6,
 .profile nav {
     margin-top: 25px;
@@ -567,6 +567,13 @@ a {
     line-height: 2.2;
 }
 
+.col-5 a {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    line-height: 2.2;
+}
+
 .col-5 nav i {
     margin-right: 25px;
     padding-top: 30px;
@@ -638,6 +645,13 @@ a {
 
 .about_col-4 p {
     padding: 0
+}
+
+.about_col-4 a {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.2;
 }
 
 .col-4 nav i {
